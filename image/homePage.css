@@ -1,8 +1,101 @@
 nav{
     display: flex;
-
+    margin-top: 30px;
+   
 }
 #list{
     display: block;
     display: flex;
+    justify-content: end;
+    justify-content: flex-end;
+      
+
+  
+}
+li{
+    display: inline;
+    justify-content: end;
+   
+}
+#form{
+    margin-top: 30px;
+    
+}
+nav > img{
+padding-top: 0px;
+}
+#second{
+    display: block;
+    display: grid;
+   grid-template-columns: repeat(5,1fr);
+   gap: 0%;
+}
+#text{
+    position: absolute;
+    top: 300px;
+    left: 96px;
+    color: aliceblue;
+}
+#btn{
+    position: absolute;
+    top: 480px;
+    left: 1200px;
+   color: white;
+   background-color: transparent;
+    
+}
+#third{
+    display: flex;
+    gap: 30px;
+    margin-left:7%;
+}
+#word{
+    display:flex;
+
+}
+#map{
+    display:flex;
+    margin-left:10%;
+    
+}
+#timinng{
+ padding-left:30px;
+ padding-top:45px;
+ width:40%;
+padding-right:%;
+    
+}
+#container{
+    width:90%
+}
+#direction{
+    padding-left:200px;
+}
+#ele{
+    display:flex;
+}
+#review{
+    position: absolute;
+    top: 999px;
+    left: 100px;
+    
+}
+#recomm{
+    margin-left:6%; 
+    margin-top: 7%;
+}
+#user{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 52%;
+    margin-left: 6%;
+}
+
+.line {
+    border-bottom: 5px solid red;
+
+    width: 90%;
+    margin-left: 60px;
+    margin-bottom: 40%;
+    padding-top: 0%;
 }
